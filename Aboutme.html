@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GOOD EATS :: About Me</title>
+  <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="goodeats.css">
+</head>
+<body>
+<div id="wrapper">
+<header>
+  <h1><a href="index.html">GOOD EATS</a>
+  </h1>
+</header>
+<nav>
+  <ul>
+    <li><a href="index.html">Home</a> </li>
+    <li><a href="Drinks.html">Drinks</a> </li>
+    <li><a href="Food.html">Food</a> </li>
+    <li><a href="restaurantfavs.html">Restaurant Favs</a> </li>
+    <li><a href="Aboutme.html">About Me</a> </li>
+       <form class="search-form" action="#" method="get">
+        <input type="text" placeholder="Search..." name="search">
+        <button type="submit">Search</button> </form>
+  </ul>
+</nav>
+
+<main class="about-me">
+
+  <section class="profile">
+    <img src="images/personalphoto.jpg" alt="Photo of Nicole" class="profile-pic">
+    <p class="bio">Hi everyone and welcome to my food website! I'm Nicole, a would-be home chef who loves to try my hand at making new foods and drinks when I have the 
+                    chance! I am a bit picky with my foods thus wanted a place to keep all my favorite recipes and eaterys
+                    in one place and introduce people to new recipes and  hidden gems in the Wesley Chapel/Tampa Bay area. Hope 
+                    everyone enjoys learning about new eats and all the places that my friends and I have very much enjoyed and look 
+                    forward to new updates!</p>
+  </section>
+
+  <section class="contact-icons">
+    <a href="mailto:nnardin@gmail.com" target="_blank">
+      <img src="images/gmail-icon.jpg" alt="Gmail" class="icon">
+    </a>
+    <a href="https://discordapp.com/users/nyxrealm" target="_blank">
+      <img src="images/discord-icon.jpg" alt="Discord" class="icon">
+    </a>
+  </section>
+
+  <section class="contact-form">
+    <h2>Contact for Any Questions or Comments!</h2>
+   
+    <h3>Looking forward to hearing from y'all!</h3>
+
+    <form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+        <label for= "myFName">*First Name</label>
+        <input type="text" id="myFName" name="myFName" required>
+
+        <label for= "myLName">Last Name</label>
+        <input type="text" id="myLName" name="myLName" required>
+
+        <label for= "myEmail">*E-mail</label>
+        <input type="email" id="myEmail" name="myEmail" required>
+
+        <label for= "myPhone">Phone:</label>
+        <input type="tel" id="myPhone" name="myPhone" maxlength="12">
+
+        <label for= "myComments">*Comments</label>
+        <textarea name="myComments" id="myComments" cols="30" rows="4"></textarea> 
+
+        <input type="submit" value="submit" >
+    </form>
+
+    <p>Required fields are marked with an asterisk *.</p>
+  </section>
+
+
+
+</main>
+<footer>
+  Copyright &copy; 2025 GOOD EATS
+  <br> <a href="mailto:nicole@nardin.com">nicole@nardin.com</a>
+</footer>
+</div>
+</body>
+</html>
