@@ -214,6 +214,11 @@ footer ul.footer-nav { list-style: none;
         max-width: 800px;
         margin: auto;}
 
+                /*CSS for restaurant imgs*/
+                .about-me img {width: 200px;
+                                height: 255px;
+                                object-fit: cover;}
+
         .profile {
         text-align: center;
         margin-bottom: 2rem;}
